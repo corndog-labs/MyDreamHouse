@@ -110,7 +110,6 @@ function setup() {
 function draw() {
   background(192);
   fill(0);
-
   // will call your state machine function
   drawFunction();
 }
@@ -121,10 +120,10 @@ function draw() {
 drawEntrance = function() {
    
    //images in the entrance array 
-   image(entranceAssets[0], 375, 100); //sofa
-   image(entranceAssets[1], 25, 150); //lamp
-   image(entranceAssets[2], 225, 225); //clock
-   image(entranceAssets[3], 100, 400); //drawers
+   image(entranceAssets[0], 240, 50); //sofa
+   image(entranceAssets[2], 190, 215); //clock
+   image(entranceAssets[3], 60, 300); //drawers
+   image(entranceAssets[1], 10, 100); //lamp
 
     //rect for button
    fill(209, 0, 28);
@@ -149,9 +148,9 @@ drawKitchen = function() {
 
 
 // images in kitchen array 
-  image(kitchenAssets[0], 100, 150); //bar cart
-  image(kitchenAssets[1], 300, 450); //green island 
-  image(kitchenAssets[2], 300, 300); //lights
+  image(kitchenAssets[0], 100, 50); //bar cart
+  image(kitchenAssets[1], 92, 320); //green island 
+  image(kitchenAssets[2], 130, 10); //lights
 
     //rect for button
    fill(246, 190, 0);
@@ -177,8 +176,8 @@ drawLiving = function() {
 
     //images in dinning room array 
     image(livingRoomAssets[0], -15, 144); //chairs
-    image(livingRoomAssets[1], 275, 175); //lamps
-    image(livingRoomAssets[2], 75, 275); //wooden
+    image(livingRoomAssets[1], 230, 190); //lamps
+    image(livingRoomAssets[2], 75, 390); //wooden
 
     //rect for button
    fill(0, 128, 0);
@@ -233,9 +232,9 @@ drawDiningRoom = function() {
 
 drawBedroom = function() {
     //images for bedroom
-    image(bedRoomAssets[0], 200, 125); //nightstand
-    image(bedRoomAssets[1], 55, 350); //bed 
-    image(bedRoomAssets[2], 50, 75); //dresser 
+    image(bedRoomAssets[0], 260, 125); //nightstand
+    image(bedRoomAssets[1], 55, 375); //bed 
+    image(bedRoomAssets[2], 70, 70); //dresser 
 
     //rect for button
    fill(255, 165, 0);
@@ -259,7 +258,7 @@ drawBathroom = function() {
     //images for bathroom
     image(bathRoomAssets[0], 0, 0); //wallpaper 
     image(bathRoomAssets[1], 150, 50); //mirror
-    image(bathRoomAssets[2], 150, 275); //vanity 
+    image(bathRoomAssets[2], 100, 200); //vanity 
 
     //rect for button
    fill(207, 255, 229);
